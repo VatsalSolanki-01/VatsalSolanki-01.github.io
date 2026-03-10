@@ -83,6 +83,25 @@ font-size:30px;
 .hero-text p{
 font-size:22px;
 max-width:550px;
+margin-bottom:25px;
+}
+
+.resume-btn{
+display:inline-block;
+padding:14px 30px;
+font-size:18px;
+font-weight:600;
+color:white;
+text-decoration:none;
+border-radius:8px;
+background:linear-gradient(90deg,#2563eb,#3b82f6);
+box-shadow:0 4px 15px rgba(37,99,235,0.3);
+transition:0.3s;
+}
+
+.resume-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 6px 20px rgba(37,99,235,0.4);
 }
 
 .hero-img img{
@@ -180,6 +199,12 @@ width:360px;
 box-shadow:0 4px 18px rgba(0,0,0,0.08);
 text-decoration:none;
 color:black;
+transition:0.3s;
+}
+
+.cert-card:hover{
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
 }
 
 .cert-card img{
