@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Vatsal Solanki | DevOps Engineer</title>
-
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
-
 <body>
-
 
 <header>
 
-<nav>
+<nav class="navbar">
 
 <ul>
-
 <li><a href="#home">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
@@ -32,13 +25,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <li><a href="#certifications">Certifications</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#collaborate">Collaborate</a></li>
-
 </ul>
 
 </nav>
 
 </header>
 
+<!-- HERO -->
 
 <section id="home" class="hero">
 
@@ -49,131 +42,96 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <h2>DevOps Engineer</h2>
 
 <p>
-Building scalable cloud infrastructure, automating deployments and implementing
-modern observability solutions to improve system reliability.
+Passionate about building scalable cloud infrastructure and automating software delivery pipelines.
 </p>
 
-<div class="hero-buttons">
-
-<a href="assets/resume.pdf" class="btn">View Resume</a>
-
 </div>
 
-</div>
-
-
-<div class="hero-image">
-
-<img src="assets/profile.jpeg">
-
+<div class="hero-img">
+<img src="assets/profile.jpeg" alt="profile">
 </div>
 
 </section>
 
+<!-- ABOUT -->
 
-<section id="about" class="section">
+<section id="about">
 
-<h2>About Me</h2>
+<h2 class="section-title">About Me</h2>
 
-<p>
+<p class="about-text">
 
-I am a DevOps enthusiast with a strong passion for cloud computing, automation
-and building resilient infrastructure. My focus is on implementing modern DevOps
-practices that improve system reliability, scalability and operational efficiency.
+I am a DevOps enthusiast with strong interest in cloud infrastructure,
+automation and backend systems.
 
-</p>
+I have recently completed my undergraduate degree
+<strong>B.C.A (Hons.) in Cloud Computing (2022–2026)</strong>.
 
-<p>
+I enjoy building real world DevOps projects involving Kubernetes,
+CI/CD pipelines, observability stacks and cloud infrastructure.
 
-I enjoy working with containerized applications, monitoring systems and
-infrastructure automation. My recent projects include building a complete
-observability stack using Prometheus, Grafana and Loki, as well as designing
-CI/CD pipelines that automate the software delivery lifecycle.
-
-</p>
-
-<p>
-
-My goal is to continuously improve my expertise in cloud technologies and DevOps
-tooling while contributing to teams that build scalable and reliable systems.
+My goal is to become a DevOps engineer who can design scalable
+systems, automate deployments and maintain reliable cloud platforms.
 
 </p>
 
 </section>
 
+<!-- SKILLS -->
 
+<section id="skills">
 
-<section id="skills" class="section">
+<h2 class="section-title">Skills</h2>
 
-<h2>Skills</h2>
+<div class="skills-grid">
 
-<div class="grid">
-
-<div class="card">Linux</div>
-<div class="card">Docker</div>
-<div class="card">Kubernetes</div>
-<div class="card">Terraform</div>
-<div class="card">Prometheus</div>
-<div class="card">Grafana</div>
-<div class="card">Git</div>
-<div class="card">CI/CD</div>
+<div class="skill">Linux</div>
+<div class="skill">Docker</div>
+<div class="skill">Kubernetes</div>
+<div class="skill">Terraform</div>
+<div class="skill">AWS</div>
+<div class="skill">CI/CD</div>
+<div class="skill">Git</div>
+<div class="skill">Go</div>
 
 </div>
 
 </section>
 
+<!-- EXPERIENCE -->
 
+<section id="experience">
 
-<section id="experience" class="section">
-
-<h2>Experience</h2>
+<h2 class="section-title">Experience</h2>
 
 <div class="timeline">
 
-<div class="timeline-item right">
+<div class="timeline-item">
+
+<div class="timeline-dot"></div>
 
 <div class="timeline-content">
 
 <h3>DevOps Intern</h3>
+<h4>Aries.com</h4>
 
-<p><strong>LinuxWorld Informatics</strong></p>
+<p class="timeline-date">2025</p>
 
-<p>2024</p>
+<ul>
 
-<p>
+<li>Worked with Linux servers and cloud environments to understand infrastructure management.</li>
 
-Worked on building an observability stack for monitoring microservices
-architecture using Prometheus, Grafana and Loki. Implemented alerting
-mechanisms and automated monitoring workflows to improve system
-visibility and operational reliability.
+<li>Implemented containerization using Docker for application deployment.</li>
 
-</p>
+<li>Explored Kubernetes concepts including pods, deployments and services.</li>
 
-</div>
+<li>Built CI/CD pipelines to automate application build and deployment processes.</li>
 
-</div>
+<li>Worked with monitoring and logging tools to improve system observability.</li>
 
-</div>
-
-</section>
-
-
-
-<section id="certifications" class="section">
-
-<h2>Certifications</h2>
-
-<div class="grid">
-
-<div class="card">
-
-AWS Certified Cloud Practitioner
+</ul>
 
 </div>
-
-<div class="card">
-
-Google Associate Cloud Engineer
 
 </div>
 
@@ -181,123 +139,105 @@ Google Associate Cloud Engineer
 
 </section>
 
+<!-- CERTIFICATIONS -->
 
+<section id="certifications">
 
-<section id="projects" class="section">
+<h2 class="section-title">Certifications</h2>
 
-<h2>Projects</h2>
+<div class="cert-grid">
 
-<div class="grid">
+<div class="cert-card">
 
+<img src="https://img.icons8.com/color/48/amazon-web-services.png">
 
-<a href="https://github.com/VatsalSolanki-01/microservices-observability-stack" class="project-card">
+<h3>AWS Cloud Practitioner</h3>
+
+</div>
+
+<div class="cert-card">
+
+<img src="https://img.icons8.com/color/48/google-cloud.png">
+
+<h3>Google Cloud Associate Engineer</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects-grid">
+
+<a href="https://github.com/VatsalSolanki-01/microservices-observability-stack"
+target="_blank"
+class="project-card">
 
 <h3>Microservices Observability Stack</h3>
 
 <p>
-
-Monitoring and logging stack for microservices using Prometheus,
-Grafana, Loki and Alertmanager.
-
+Monitoring microservices using Prometheus, Grafana and distributed tracing.
 </p>
 
 </a>
 
+<a href="https://github.com/VatsalSolanki-01/To_do"
+target="_blank"
+class="project-card">
 
-
-<a href="https://github.com/VatsalSolanki-01/To_do" class="project-card">
-
-<h3>CI/CD Automation Project</h3>
+<h3>Complete CI/CD Pipeline</h3>
 
 <p>
-
-Complete CI/CD pipeline implementation for automated application
-build, testing and deployment.
-
+Automated build, test and deployment pipeline using modern DevOps tools.
 </p>
 
 </a>
-
 
 </div>
 
 </section>
 
+<!-- COLLABORATE -->
 
+<section id="collaborate">
 
-<section id="collaborate" class="section">
+<h2 class="section-title">Collaborate</h2>
 
-<h2>Collaborate</h2>
-
-<p>
-
-Let's work together to build scalable cloud infrastructure, automate
-software delivery pipelines and create reliable distributed systems.
-
+<p class="collab-text">
+Let's work together to build scalable systems and impactful cloud solutions.
 </p>
-
 
 <div class="contact-grid">
 
 <div class="contact-item">
-
 <i class="fab fa-github"></i>
-
-<a href="https://github.com/VatsalSolanki-01">
-
-github.com/VatsalSolanki-01
-
-</a>
-
+<a href="https://github.com/VatsalSolanki-01">GitHub</a>
 </div>
 
-
 <div class="contact-item">
-
 <i class="fab fa-linkedin"></i>
-
-<a href="https://linkedin.com">
-
-LinkedIn Profile
-
-</a>
-
+<a href="#">LinkedIn</a>
 </div>
 
-
 <div class="contact-item">
-
 <i class="fas fa-envelope"></i>
-
-<a href="mailto:solanki.vatsal009@gmail.com">
-
-solanki.vatsal009@gmail.com
-
-</a>
-
+<span>solanki.vatsal009@gmail.com</span>
 </div>
 
-
 <div class="contact-item">
-
 <i class="fas fa-phone"></i>
-
 <span>+91 96625 77522</span>
-
 </div>
 
 </div>
 
 </section>
-
-
-
-<footer>
-
-<p>© 2026 Vatsal Solanki</p>
-
-</footer>
-
 
 <script src="script.js"></script>
 
